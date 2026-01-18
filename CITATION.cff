@@ -1,0 +1,79 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+
+title: "ENFIELD Adversarial Testbed"
+abstract: >-
+  Formal adversarial testing framework for LLM-generated industrial 
+  robot code. Provides a simulation-based testbed with AST-based 
+  watchdog for detecting safety violations in robot control code.
+
+authors:
+  - family-names: "Çogurcu"
+    given-names: "Yunus Emre"
+    email: "yunusemrecogurcu@gmail.com"
+    orcid: "https://orcid.org/0000-0002-9229-9657"
+    affiliation: "Çukurova University, Department of Computer Engineering"
+  - family-names: "Spathoulas"
+    given-names: "Georgios"
+    affiliation: "NTNU, Department of Information Security and Communication Technology"
+
+version: "1.0.0"
+date-released: "2026-07-31"
+license: MIT
+repository-code: "https://github.com/username/enfield-adversarial-testbed"
+url: "https://enfield-project.eu/"
+
+keywords:
+  - adversarial-testing
+  - industrial-robots
+  - llm-security
+  - ros2
+  - safety-validation
+  - iso-10218
+  - formal-methods
+  - robot-code-generation
+
+# DOI identifiers - UPDATE AFTER OSF REGISTRATION
+identifiers:
+  - type: doi
+    value: "10.17605/OSF.IO/XXXXX"
+    description: "OSF Preregistration DOI (Month 2)"
+  - type: doi
+    value: "10.17605/OSF.IO/YYYYY"
+    description: "OSF Replication Package DOI (Month 6)"
+  # Uncomment after Zenodo archival:
+  # - type: doi
+  #   value: "10.5281/zenodo.ZZZZZZZ"
+  #   description: "Zenodo Archive DOI"
+
+references:
+  - type: article
+    authors:
+      - family-names: "Kumar"
+        given-names: "et al."
+    title: "Code Generation Security"
+    year: 2024
+    journal: "COLM 2024"
+  - type: standard
+    title: "ISO 10218-1:2025 Robots and robotic devices — Safety requirements"
+    year: 2025
+    publisher: "ISO"
+
+# Funding acknowledgment
+funding:
+  - name: "ENFIELD Exchange Scheme"
+    funder: "European Union Horizon Europe"
+    grant-number: "101120657"
+
+# Preferred citation format
+preferred-citation:
+  type: software
+  authors:
+    - family-names: "Çogurcu"
+      given-names: "Yunus Emre"
+    - family-names: "Spathoulas"
+      given-names: "Georgios"
+  title: "ENFIELD Adversarial Testbed"
+  year: 2026
+  doi: "10.17605/OSF.IO/XXXXX"
