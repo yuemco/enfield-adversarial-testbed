@@ -10,13 +10,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Build
-        run: |
-          echo "build ok"
+        run: echo "build ok"
 
   test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: Test
-        run: |
-          echo "test ok"
+        run: echo "test ok"
